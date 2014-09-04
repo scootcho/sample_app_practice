@@ -60,9 +60,9 @@ describe "Authentication" do
           click_button "Sign in"
         end
 
-        describe "after signed-in" do
+        describe "after signing in" do
 
-          it "should render the desired page" do
+          it "should render the desired protected page" do
             expect(page).to have_title('Edit user')
           end
         end
